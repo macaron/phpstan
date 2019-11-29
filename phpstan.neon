@@ -1,0 +1,13 @@
+parameters:
+    level: 1
+    autoload_directories:
+        - /app/tokyotyrant.stub
+    autoload_files:
+        - /app/vendor/autoload.php
+    paths:
+        - /app/tests
+services:
+    -
+        class: Moi\PHPStan\Rule\MethodParameter
+        tags:
+            - phpstan.rules.rule

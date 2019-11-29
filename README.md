@@ -1,0 +1,1 @@
+## PHPStan include customize rules

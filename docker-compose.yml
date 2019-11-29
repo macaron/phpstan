@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  phpstan:
+    image: phpstan/phpstan:0.11.19
+    volumes:
+      - .:/app
+    init: true
+
+  test:
+    build: .
+    volumes:
+      - .:/app
+    entrypoint: vendor/bin/phpunit tests
+    init: true

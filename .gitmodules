@@ -1,0 +1,3 @@
+[submodule "tokyotyrant.stub"]
+	path = tokyotyrant.stub
+	url = git@github.com:moicorp/tokyotyrant.stub.git
