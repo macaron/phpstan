@@ -4,10 +4,11 @@ services:
     image: phpstan/phpstan:0.11.19
     volumes:
       - .:/app
+    entrypoint: phpstan analyse -c phpstan.neon
     init: true
 
   test:
-    build: .
+    image: phpstan/phpstan:0.11.19
     volumes:
       - .:/app
     entrypoint: vendor/bin/phpunit tests
