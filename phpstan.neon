@@ -5,7 +5,7 @@ parameters:
     autoload_files:
         - /app/vendor/autoload.php
     paths:
-        - /app/tests
+        - /app/classes
 services:
     -
         class: Moi\PHPStan\Rule\MethodParameter

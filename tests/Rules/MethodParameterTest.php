@@ -2,7 +2,7 @@
 
 namespace PHPStan\Rules\Methods;
 
-use Moi\PHPStan\Rules\MethodParameter;
+use Moi\PHPStan\Rule\MethodParameter;
 
 class WrongCaseOfInheritedMethodRuleTest extends \PHPStan\Testing\RuleTestCase
 {
