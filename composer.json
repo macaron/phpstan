@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Moi\\PHPStan\\Rules\\": "src/Rules"
+      "Moi\\PHPStan\\Rule\\": "src/Rules"
     },
     "classmap": [
       "tests/"
